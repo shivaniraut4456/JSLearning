@@ -1,11 +1,15 @@
-
-console.log("======================================= Assignment =======================================");
 console.log("                                 ");
-console.log("================= [Part 1] : Function with no argument and no return type ================");
+console.log(
+  "=======================================Assignment======================================="
+);
+console.log("                                 ");
+console.log("[Part 1]----------> Function with no argument and no return type");
 console.log("                                 ");
 
 function message1() {
-  console.log("1. It doesn't matter what others are doing, it matters what you are doing.");
+  console.log(
+    "1. It doesn't matter what others are doing, it matters what you are doing."
+  );
 }
 
 message1();
@@ -13,30 +17,45 @@ message1();
 console.log("                                 ");
 
 function message2() {
-  console.log("2. No matter how small you start, start something that matters.");
+  console.log(
+    "2. No matter how small you start, start something that matters."
+  );
 }
 
 message2();
-
 console.log("                                 ");
 
-console.log("============================== [Part 2] : Personal Details ===============================");
+console.log(
+  "=========================================================================================="
+);
+console.log("                                 ");
 
+console.log("[Part 2]----------> Personal Details");
 console.log("                                 ");
 
 function personalDetails(firstName, lastName, collegeName) {
   firstName = "Shivani";
-  lastName = "Raut";
-  collegeName = "DIEMS Aurangabad";
+  console.log("First Name:", firstName);
 
-  console.log("First Name:", firstName, "   Last Name:", lastName, "    College Name:", collegeName);
-  
+  console.log("                                 ");
+
+  lastName = "Raut";
+  console.log("Last Name:", lastName);
+
+  console.log("                                 ");
+
+  collegeName = "DIEMS Aurangabad";
+  console.log("College Name:", collegeName);
 }
 personalDetails();
 
 console.log("                                 ");
-console.log("================================= [Part 3] : Swap Values =================================");
+console.log(
+  "=========================================================================================="
+);
+console.log("                                 ");
 
+console.log("[Part 3]----------> Swap Values");
 console.log("                                 ");
 
 function swapValues(value1, value2) {
@@ -50,13 +69,19 @@ function swapValues(value1, value2) {
 
 swapValues("Virat", "Anushka");
 console.log("                                 ");
-console.log("------------------------------------------------------------------------------------------");
+console.log(
+  "------------------------------------------------------------------------------------------"
+);
 console.log("                                 ");
 swapValues(1000, 2000);
 
 console.log("                                 ");
+console.log(
+  "=========================================================================================="
+);
+console.log("                                 ");
 
-console.log("===================================== Part 4] : Addition ==================================")
+console.log("[Part 4]----------> Addition");
 console.log("                                 ");
 
 function addThreeValues(num1, num2, num3) {
@@ -73,4 +98,6 @@ var greetings = addThreeValues("Hello,", " Good", " Morning...!!!");
 console.log(greetings);
 
 console.log("                                 ");
-console.log("==========================================================================================");
+console.log(
+  "=========================================================================================="
+);
